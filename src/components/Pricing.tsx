@@ -9,7 +9,7 @@ const Pricing = () => {
     },
     {
       type: "Biaya pendaftaran",
-      price: "Rp 50.000",
+      price: "Rp 150.000",
       description: "Sekali bayar untuk member baru"
     },
     {
