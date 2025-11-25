@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
     {
       icon: Heart,
       title: "Mentor Ramah",
-      description: "Trainer profesional yang bersertifikasi dan siap membantu Anda mencapai target fitness"
+      description: "Trainer yang ramah, siap membimbing, dan mendukung Anda dengan penuh semangat di setiap sesi latihan"
     },
     {
       icon: DollarSign,

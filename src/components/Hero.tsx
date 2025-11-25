@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-gym.jpg";
 import logo from "@/assets/pf-gym-logo.png";
 
@@ -30,33 +28,13 @@ const Hero = () => {
             Dapatkan akses ke alat premium, kelas terbaik, dan komunitas yang mendukung di PF Gym
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col gap-6 md:flex-row md:justify-center animate-in fade-in slide-in-from-bottom duration-1000 delay-300">
-            <Button 
-              size="lg"
-              className="group relative h-auto flex-col gap-2 overflow-hidden bg-gradient-red px-12 py-8 text-lg font-bold shadow-red-glow transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsla(357,100%,50%,0.5)] md:text-xl"
-            >
-              <div className="flex items-center gap-3">
-                <MapPin className="h-6 w-6" />
-                <span>PF GYM CONDONGCATUR</span>
-              </div>
-              <span className="text-sm font-normal opacity-90">
-                Cek fasilitas terdekat
-              </span>
-            </Button>
-
-            <Button 
-              size="lg"
-              className="group relative h-auto flex-col gap-2 overflow-hidden bg-gradient-red px-12 py-8 text-lg font-bold shadow-red-glow transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsla(357,100%,50%,0.5)] md:text-xl"
-            >
-              <div className="flex items-center gap-3">
-                <MapPin className="h-6 w-6" />
-                <span>PF GYM KASIHAN, BANTUL</span>
-              </div>
-              <span className="text-sm font-normal opacity-90">
-                Cek kelas yang tersedia
-              </span>
-            </Button>
+          {/* CTA Button */}
+          <div className="flex justify-center animate-in fade-in slide-in-from-bottom duration-1000 delay-300">
+            <a href="#daftar-member">
+              <button className="group relative bg-primary hover:bg-primary/90 text-white px-16 py-8 rounded-full text-2xl font-black transition-all duration-300 shadow-red-glow hover:shadow-red-glow-lg hover:scale-105">
+                DAFTAR MEMBER
+              </button>
+            </a>
           </div>
         </div>
       </div>

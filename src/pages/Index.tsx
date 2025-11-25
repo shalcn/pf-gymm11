@@ -1,9 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import MemberRegistration from "@/components/MemberRegistration";
 import LocationHours from "@/components/LocationHours";
 import Pricing from "@/components/Pricing";
 import Facilities from "@/components/Facilities";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -11,9 +14,12 @@ const Index = () => {
       <Navbar />
       <Hero />
       <WhyChooseUs />
+      <MemberRegistration />
       <LocationHours />
       <Pricing />
       <Facilities />
+      <CTASection />
+      <Footer />
     </main>
   );
 };
