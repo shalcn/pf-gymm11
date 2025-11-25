@@ -5,25 +5,16 @@ import logo from "@/assets/pf-gym-logo.png";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-gradient-hero">
+    <div className="relative min-h-screen w-full overflow-hidden bg-gradient-hero pt-20">
       {/* Background Image Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
-      
-      {/* Header with Logo */}
-      <header className="relative z-10 px-6 py-6 md:px-12 md:py-8">
-        <img 
-          src={logo} 
-          alt="PF Gym & Fitness" 
-          className="h-16 w-auto md:h-20 animate-in fade-in slide-in-from-left duration-700"
-        />
-      </header>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex min-h-[calc(100vh-120px)] items-center justify-center px-6 md:px-12">
+      <div className="relative z-10 flex min-h-[calc(100vh-80px)] items-center justify-center px-6 md:px-12">
         <div className="max-w-5xl text-center animate-in fade-in slide-in-from-bottom duration-1000">
           {/* Main Headline */}
           <h1 className="mb-6 text-5xl font-black tracking-tight text-foreground md:text-7xl lg:text-8xl">
